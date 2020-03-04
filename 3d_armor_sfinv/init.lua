@@ -1,5 +1,12 @@
 -- support for i18n
-local S = armor_i18n.gettext
+local S
+
+if minetest.get_translator ~= nil then
+    S = minetest.get_translator(minetest.get_current_modname())
+    
+else
+    S = armor_i18n.gettext
+end
 
 if not minetest.global_exists("sfinv") then
 	minetest.log("warning", S("3d_armor_sfinv: Mod loaded but unused."))

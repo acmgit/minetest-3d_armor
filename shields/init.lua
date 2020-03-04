@@ -1,5 +1,12 @@
 -- support for i18n
-local S = armor_i18n.gettext
+local S
+
+if minetest.get_translator ~= nil then
+    S = minetest.get_translator(minetest.get_current_modname())
+    
+else
+    S = armor_i18n.gettext
+end
 
 local disable_sounds = minetest.settings:get_bool("shields_disable_sounds")
 local use_moreores = minetest.get_modpath("moreores")
