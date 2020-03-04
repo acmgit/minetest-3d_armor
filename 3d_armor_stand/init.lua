@@ -1,5 +1,12 @@
 -- support for i18n
-local S = armor_i18n.gettext
+local S
+
+if minetest.get_translator ~= nil then
+    S = minetest.get_translator(get_current_modname())
+    
+else
+    S = armor_i18n.gettext
+end
 
 local armor_stand_formspec = "size[8,7]" ..
 	default.gui_bg ..

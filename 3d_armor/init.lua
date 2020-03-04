@@ -7,7 +7,14 @@ local timer = 0
 
 -- support for i18n
 armor_i18n = { }
-armor_i18n.gettext, armor_i18n.ngettext = dofile(modpath.."/intllib.lua")
+
+if minetest.get_translator ~= nil then
+    armor_i18n.gettext = minetest.get_translator(modname)
+    
+else
+    armor_i18n.gettext, armor_i18n.ngettext = dofile(modpath.."/intllib.lua")
+
+end
 
 -- local functions
 local S = armor_i18n.gettext

@@ -1,0 +1,57 @@
+# textdomain: 3d_armor
+
+
+### api.lua ###
+
+3d_armor: Detached armor inventory is nil @1=3d_armor: Abgetrennter Rüstungsbestand ist null @1
+3d_armor: Player name is nil @1=3d_armor: Spielername ist null @1
+3d_armor: Player reference is nil @1=3d_armor: Spielerreferenz ist null @1
+
+### armor.lua ###
+
+Admin Boots=Admins Schuhe
+Admin Chestplate=Admins Brustpanzer
+Admin Helmet=Admins Helm
+Admin Leggings=Admins Hosen
+Bronze Boots=Bronzene Schuhe
+Bronze Chestplate=Bronzener Brustpanzer
+Bronze Helmet=Bronzener Helm
+Bronze Leggings=Bronzene Hosen
+Cactus Boots=Kaktusschuhe
+Cactus Chestplate=Kaktusbrustpanzer
+Cactus Helmet=Kaktushelm
+Cactus Leggings=Kaktushosen
+Crystal Boots=Kristallene Schuhe
+Crystal Chestplate=Kristallener Brustpanzer
+Crystal Helmet=Kristallener Helm
+Crystal Leggings=Kristallene Hosen
+Diamond Boots=Diamantschuhe
+Diamond Chestplate=Diamantbrustpanzer
+Diamond Helmet=Diamanthelm
+Diamond Leggings=Diamanthosen
+Gold Boots=Goldene Schuhe
+Gold Chestplate=Goldener Brustpanzer
+Gold Helmet=Goldener Helm
+Gold Leggings=Goldene Hosen
+Mithril Boots=Mithrilschuhe
+Mithril Chestplate=Mithrilbrustpanzer
+Mithril Helmet=Mithrilhelm
+Mithril Leggings=Mithrilhosen
+Steel Boots=Eiserne Schuhe
+Steel Chestplate=Eiserner Brustpanzer
+Steel Helmet=Eiserner Helm
+Steel Leggings=Eiserne Hosen
+Wood Boots=Hölzerne Schuhe
+Wood Chestplate=Hölzerener Brustpanzer
+Wood Helmet=Hölzerner Helm
+Wood Leggings=Hölzerne Hosen
+
+### init.lua ###
+
+3d_armor: Failed to initialize player=3d_armor: Fehlgeschlagene Initalisierung Spieler
+Fire=Feuer
+Heal=Heilung
+Level=Stufe
+Radiation=Strahlung
+Your @1 got destroyed!=Deine @1 wurde zerstört!
+[3d_armor] Fire Nodes disabled=[3d_armor] Feuerblöcke ausgeschalten

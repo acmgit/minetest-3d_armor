@@ -1,0 +1,13 @@
+# textdomain: 3d_armor_ui
+
+
+### init.lua ###
+
+3d Armor=3d Rüstung
+3d_armor_ui: Mod loaded but unused.=3d_armor_ui: Mod geladen, wird aber nicht benutzt.
+Armor=Rüstung
+Armor not initialized!=Rüstung nicht initalisiert!
+Fire=Feuer
+Heal=Heilung
+Level=Stufe
+Radiation=Strahlung
