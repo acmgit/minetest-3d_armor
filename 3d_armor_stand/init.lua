@@ -6,6 +6,7 @@ if minetest.get_translator ~= nil then
     
 else
     S = armor_i18n.gettext
+    
 end
 
 local armor_stand_formspec = "size[8,7]" ..

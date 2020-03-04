@@ -9,6 +9,7 @@ if minetest.get_translator ~= nil then
     
 else
     S = armor_i18n.gettext
+    
 end
 
 if not minetest.global_exists("unified_inventory") then
